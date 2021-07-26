@@ -4,7 +4,7 @@ This repository is my portfolio of various projects completed on data science, m
 ## Projects
  - #### Machine learning & data mining
   
-      -  Predicting ethnicity from names for marketing : A machine learning model to predict the person's ethnicity from their name to use in specific target marketing. It identifies if the person is Asian – Indian /Asian – East Asian / Hispanic /White non-Hispanic or Black non-Hispanic. We have used LSTM, SVM, and NBC models to find out the best fitting model.
+      -  [Predicting ethnicity from names for marketing](https://github.com/parth2545/Parth-Patankar-s-project-portfolio/tree/main/Predicting%20ethnicity%20from%20names%20for%20marketing) : A machine learning model to predict the person's ethnicity from their name to use in specific target marketing. It identifies if the person is Asian – Indian /Asian – East Asian / Hispanic /White non-Hispanic or Black non-Hispanic. We have used [LSTM](https://github.com/parth2545/Parth-Patankar-s-project-portfolio/blob/main/Predicting%20ethnicity%20from%20names%20for%20marketing/LSTM_Single_alphabet.ipynb), [SVM](https://github.com/parth2545/Parth-Patankar-s-project-portfolio/blob/main/Predicting%20ethnicity%20from%20names%20for%20marketing/SVM_model.ipynb), and [NBC](https://github.com/parth2545/Parth-Patankar-s-project-portfolio/blob/main/Predicting%20ethnicity%20from%20names%20for%20marketing/NBC_Name_model.ipynb) models to find out the best fitting model.
       
       -  Text Mining to classify reviews: A model for understanding and classifying medicine reviews into positive and negative. Unstructured text data is processed to find meaningful information to improve the product.
       
