@@ -46,12 +46,12 @@ two entities. We make use of Support vector classification (SVC), Naive Bayes cl
 (NBC), and LSTM (long-short term memory) model. We build model using different features 
 and parameters, Models are as follows:
   1) SVM – First name – Bi-gram/Tri-gram feature
-  2) SVM – Full name – Name as feature 
+  2) [SVM – Full name – Name as feature](https://github.com/parth2545/Parth-Patankar-s-project-portfolio/blob/main/Predicting%20ethnicity%20from%20names%20for%20marketing/SVM_model.ipynb) 
   3) SVM – Full name – Bi-gram/ Tri-gram Feature
   4) NBC – First Name – Bi-gram/Tri-gram feature
-  5) NBC - Full name – Name as feature 
+  5) [NBC - Full name – Name as feature](https://github.com/parth2545/Parth-Patankar-s-project-portfolio/blob/main/Predicting%20ethnicity%20from%20names%20for%20marketing/NBC_Name_model.ipynb)
   6) NBC - Full name – Bi-gram/ Tri-gram Feature
-  7) LSTM - Full name – Single alphabet 
+  7) [LSTM - Full name – Single alphabet](https://github.com/parth2545/Parth-Patankar-s-project-portfolio/blob/main/Predicting%20ethnicity%20from%20names%20for%20marketing/LSTM_Single_alphabet.ipynb)
   8) LSTM – Full name – Name as token 
   9) LSTM – Full name – Bi-gram 
 
