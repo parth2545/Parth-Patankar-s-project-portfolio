@@ -6,7 +6,7 @@ overcomes this lows following ensembles techniques are used :
 1) Random forest 
 2) Adaptive booster 
 3) Gradient boosting 
-4)XGBoost 
+4) XGBoost 
 5) Bagging.
 
 Please check the python notebook for explanation
