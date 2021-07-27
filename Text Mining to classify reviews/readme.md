@@ -24,6 +24,8 @@ model, we found out that 7the iteration gives the best fold and accuracy of
 will be able to predict correct rating for 88 atleast. From the confusion matrix we can observe 
 that our model only missed 227 reviews out of 2330. Which is quite good result.
 
+![Result:](https://github.com/parth2545/Parth-Patankar-s-project-portfolio/blob/main/Text%20Mining%20to%20classify%20reviews/image.png)
+
 
 
 **Naive Bayes classifier:**
