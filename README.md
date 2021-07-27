@@ -8,7 +8,7 @@ This repository is my portfolio of various projects completed on data science, m
       
       -  [Text Mining to classify reviews:](https://github.com/parth2545/Parth-Patankar-s-project-portfolio/tree/main/Text%20Mining%20to%20classify%20reviews) A model for understanding and classifying medicine reviews into positive and negative. Unstructured text data is processed to find meaningful information to improve the product.
       
-      -  Predicting conversion rate on an E-commerce website: With the help of decision tree ensembles, we created models to predict if the person visiting a website will make a successful transaction or not with the help of variables like amount spend on the website, bounce rate, time, and month of the year, special day, etc. This will help businesses identify the problems in the website and improve customer retention rate, resulting in higher sales and revenue.
+      -  [Predicting conversion rate on an E-commerce website:](https://github.com/parth2545/Parth-Patankar-s-project-portfolio/blob/main/Predicting%20conversion%20rate%20on%20an%20E-commerce%20website/Predicting_conversion_rate_on_an_E_commerce_website%20(2).ipynb) With the help of decision tree ensembles, we created models to predict if the person visiting a website will make a successful transaction or not with the help of variables like amount spend on the website, bounce rate, time, and month of the year, special day, etc. This will help businesses identify the problems in the website and improve customer retention rate, resulting in higher sales and revenue.
      
      -  Finding quality of beverage: Using random forest classification model to predict if the drink is of good or bad quality with the help of proportion of 7 main ingredients of the drink.
 
