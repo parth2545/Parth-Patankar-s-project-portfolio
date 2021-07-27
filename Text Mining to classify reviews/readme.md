@@ -38,6 +38,8 @@ i.e 81.90%. If looked at a confusion matrix, even if model is better in minimisi
 it does not give good prediction. Around 363 reviews were wrongly classified while using NBC 
 model.
 
+![Result:](https://github.com/parth2545/Parth-Patankar-s-project-portfolio/blob/main/Text%20Mining%20to%20classify%20reviews/NBC.JPG)
+
 Therefore, when we compare accuracy of both the model, we can directly say that 
 support vector classifier performs much better at predicting the Rating. It gives us 8502 unique 
 words as a vocabulary list with 8% more accuracy than another model. Hence, we save that 
