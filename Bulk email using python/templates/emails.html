@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Send Bulk Mail</title>
+	<script src="https://cdn.tiny.cloud/1/cyfwpfvuknw0t7l9ob8pme123x50nyqo91fca7coz4rfaqqi/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+	<script>tinymce.init({selector:'textarea#email-body'});</script>
+</head>
+<body>
+	<div style="width: 600px; margin: auto;">
+		<div>
+			{% with messages = get_flashed_messages() %}
+			  {% if messages %}
+				<ul style="color: {{ color }};">
+				{% for message in messages %}
+				  <li>{{ message }}</li>
+				{% endfor %}
+				</ul>
+			  {% endif %}
+			{% endwith %}
+		</div>
+		<label style="color: red;">Email List Limit is 60</label>
+		<div>
+		<label><strong>Senders Email ID</strong></label>
+		<input name="senders-id" value="{{ request.form['senders-id'] }}" type="text" placeholder="Sender Email" size="60"/>
+		<label><strong>Senders Email Password</strong></label>
+		<input name="" value="{{ request.form['senders-app-password'] }}" type="password" placeholder="App Password" size="60"/>
+		</div>
+
+		<div>
+			<form action="/send" method="post" enctype="multipart/form-data">
+				<h2>Compose and Send Email</h2>
+				<dl>
+					<p>
+						<label><strong>Email Subject</strong></label>
+						<input name="email-subject" value="{{ request.form['email-subject'] }}" type="text" placeholder="Email Subject" size="60"/>
+					</p>
+					<p>
+						<label><strong>Email Body</strong></label>
+						<textarea id="email-body" name="email-body" placeholder="Email Body">{{ request.form['email-body'] }}</textarea>
+					</p>
+					<p>
+						<label><strong>List of Emails</strong>(separated by ,)(DO NOT PUT SPACE IN BETWEEN IDs) </label>
+						<textarea name="emails" placeholder="abc@gmail.com,xyz@yahoo.co.in,123@hotmail.com" rows="6" cols="60">{{ request.form['emails'] }}</textarea>
+					</p>
+					<p>
+						<label><strong>Email Attachments Location</strong>( If attached ,please mention file type in email body)</label>
+						<input name="email-attachment" value="{{ request.form['email-attachment'] }}" type="text" placeholder="Email attachment" size="60"/>
+					</p>
+					<p>
+						<label><strong>Email Attachment file name</strong>( Just Specify the file name)</label>
+						<input name="email-attachment1" value="{{ request.form['email-attachment1'] }}" type="text" placeholder="File Name" size="60"/>
+					</p>
+				</dl>
+				<p>
+					<input type="submit" value="Send Email">
+				</p>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
