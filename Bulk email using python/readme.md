@@ -5,5 +5,12 @@ Sometimes we need to send bulk email for the marketing purpose and communicating
 ### Bulk Email Interface :
 ![image](https://user-images.githubusercontent.com/73188554/128931160-f6be920f-f4d6-4dd4-9b0c-23ef721ff9a5.png)
 
+### Steps to use the application
+
+**Stept 1** : Install python and Intall flask ( Flask is an API of Python that allows us to build up web-applications). 
+              To install Flasl use ( pip install flask)
+       
+**Step 2** : Create [Tiny.cloud](https://www.tiny.cloud/) account. It is an online rich-text editor released as open-source software. The api give good inerface for HTML text editing.
+
 
 
