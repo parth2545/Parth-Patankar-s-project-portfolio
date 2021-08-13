@@ -28,5 +28,5 @@ This repository is my portfolio of various projects completed on data science, m
 
 - #### Micro Projects
 
-  -   Bulk email using python : A web-based application to send bulk emails to clients to notify changes in gov system and rules using flask, python, and HTML.
+  -   [Bulk email using python[(https://github.com/parth2545/Parth-Patankar-s-project-portfolio/tree/main/Bulk%20email%20using%20python) : A web-based application to send bulk emails to clients to notify changes in gov system and rules using flask, python, and HTML.
 
