@@ -10,7 +10,7 @@ Sometimes we need to send bulk email for the marketing purpose and communicating
 **Stept 1** : Install python and Intall flask ( Flask is an API of Python that allows us to build up web-applications). 
               To install Flasl use ( pip install flask)
        
-**Step 2** : Create [Tiny.cloud](https://www.tiny.cloud/) account. It is an online rich-text editor released as open-source software. The api give good inerface for HTML text editing.
+**Step 2** : Create [Tiny.cloud](https://www.tiny.cloud/) account. It is an online rich-text editor released as open-source software. The api gives good inerface for inputHTML text editing.Input the API key in "app.py/app.secret_key".
 
 
 
