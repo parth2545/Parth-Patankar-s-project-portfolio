@@ -14,6 +14,8 @@ Sometimes we need to send bulk email for the marketing purpose and communicating
 
 **Step 3** : Open CMD and run python file "main.py" and open the local host and it will start the email sender
 
+**Step 4** : To get sender's email password , you would need to create and app in your email provider and use the app password for it.( DO NOT USE REGULAR EMAIL PASSWORDS)
+
 
 
 
