@@ -12,5 +12,8 @@ Sometimes we need to send bulk email for the marketing purpose and communicating
        
 **Step 2** : Create [Tiny.cloud](https://www.tiny.cloud/) account. It is an online rich-text editor released as open-source software. The api gives good inerface for inputHTML text editing.Input the API key in "app.py/app.secret_key".
 
+**Step 3** : Open CMD and run python file "main.py" and open the local host and it will start the email sender
+
+
 
 
