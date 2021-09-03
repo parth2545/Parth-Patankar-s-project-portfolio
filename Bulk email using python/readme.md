@@ -16,6 +16,12 @@ Sometimes we need to send bulk email for the marketing purpose and communicating
 
 **Step 4** : To get sender's email password , you would need to create and app in your email provider and use the app password for it.( DO NOT USE REGULAR EMAIL PASSWORDS)
 
+**Step 5** : Fill all the required details. Input all the email Ids one by one and sperate them by comma. Do no put space in the Ids. To protect your account from getting banned we have kept the email limit to 60. We recommend you to not send more than 60 emails/day.
+
+**Step 6** :If you want to attach the file, copy-paste the file location address.Speicify the file name. 
+
+**step7** : Click send to send email.
+
 
 
 
