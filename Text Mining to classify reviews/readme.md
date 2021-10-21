@@ -1,4 +1,4 @@
-# Text Mining to Claddify Reviews
+# Text Mining to Classify Reviews
 
 This project was a part of my accademic project.
 
